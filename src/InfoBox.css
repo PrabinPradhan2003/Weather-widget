@@ -1,12 +1,8 @@
 .InfoBox {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  margin-left: 260px;
+  text-align: center ;
 }
 
 .InfoCard {
-  border-radius: 20px;
-  width: 600px;
-  max-width: 90%;
+  display:flex;
+  justify-self: center;
 }
