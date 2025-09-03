@@ -1,12 +1,55 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather Now - React Weather Widget
 
-Currently, two official plugins are available:
+A simple, responsive weather application built with **React + Vite** and **Material UI**.  
+This app fetches real-time weather data using the **Open-Meteo API** and allows users to quickly check current weather conditions in any city.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search weather by **city name**
+- Displays **temperature, wind-speed, and icons**
+- Styled with **Material UI** for a clean, modern interface
+- Built with **Vite** for fast development and optimized builds
+
+---
+
+## Tech Stack
+
+- **React** – Frontend framework
+- **Vite** – Build tool
+- **Material UI** – UI components & styling
+- **Open-Meteo API** – Weather data provider
+
+---
+
+## Installation & Setup
+
+1. Clone this repository:
+   git clone https://github.com/PrabinPradhan2003/Weather-widget.git
+   cd Weather-widget
+
+2. Install dependencies:
+
+   npm install
+
+3. Run the development server:
+
+   npm run dev
+
+4. Open your browser at:
+
+   http://localhost:5173
+
+---
+
+## 🌐 Deployment
+
+You can deploy the app easily on platforms like **Vercel**, **Netlify**, or **GitHub Pages**.
+Example (for Vercel):
+
+npm run build
+vercel deploy
+```
+
